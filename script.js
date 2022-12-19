@@ -28,8 +28,8 @@ function handleGetData(event) {
 }
 
 function render() {
-  $location.text(location.sys.name)
-  $temp.text(temp.main.temp)
-  $feels.text(feels.main.feels_like)
-  $weather.text(weather.weather.description)
+  $location.text(lsys.name)
+  $temp.text(main.temp)
+  $feels.text(main.feels_like)
+  $weather.text(weather.description)
 }
